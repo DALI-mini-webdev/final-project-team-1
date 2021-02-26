@@ -17,7 +17,7 @@ class NavBar extends Component{
     render(){
         return(
             <nav className = "BarButtons">
-                <h1 className = "suggestionLogo">Suggestions for Students<i className = "fab fa-react">
+                <h1 className = "suggestionLogo">DartFix<i className = "fab fa-react">
                     </i></h1>
                     <div className = "department" onClick = {this.handleClick}>
                         <i className = {this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>

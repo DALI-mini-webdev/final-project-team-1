@@ -16,7 +16,7 @@
 .page{
   position: relative;
   width: flex;
-  height: 1024px;
+  height: 100vh;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #82A3A1;
 }
 
