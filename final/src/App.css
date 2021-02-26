@@ -13,6 +13,13 @@
   }
 }
 
+.page{
+  position: relative;
+  width: flex;
+  height: 1024px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #82A3A1;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
