@@ -1,9 +1,9 @@
 :root{
-    --primary: #3acbf7;
+    --primary: #0a3d11;
 }
 
 .btn{
-    padding: 8px 20px;
+    padding: 10px 30px;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -14,7 +14,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color: #6568f4;
+    color: #0a3d11;
     transition: 250ms;
 }
 
