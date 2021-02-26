@@ -13,11 +13,11 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    
+
 }
 
 /* help from github website */
-.logoSetup{ 
+.logoSetup{
     width: 40px;
     height: 40px;
     border-radius: 55%;
@@ -96,14 +96,14 @@
         background-color: rgb(66, 201, 144);
         border-radius: 0;
     }
-    
+
     .suggestionLogo{
         position: absolute;
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
     }
-    
+
     .department{
         display: block;
         position: absolute;
