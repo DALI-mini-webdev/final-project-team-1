@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css'
 
 export default class extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class extends React.Component {
   render() {
 	return (
   	<form className="test-mailing">
-    	<h1>Enter Your Suggestions Here</h1>
+    	<h1 className="green-text">Enter Your Suggestions Here</h1>
     	<div>
       	<textarea
         	id="test-mailing"
@@ -90,7 +91,6 @@ export default class extends React.Component {
 	} else {
 		console.log("Form was not successfully submitted because the message was empty.")
 	}
-
   }
 
   sendFeedback (templateId, variables) {
