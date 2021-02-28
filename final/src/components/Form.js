@@ -20,10 +20,11 @@ export default class extends React.Component {
         	placeholder="Enter your suggestions here"
         	required
         	value={this.state.feedback}
-        	style={{width: '50%', height: '200px', borderRadius: '18px', padding:"16px" }}
+        	style={{width: '50%', height: '200px', borderRadius: '18px', padding:"16px", fontSize: "18px", fontFamily: "sans-serif", color: '#00693e'}}
       	/>
     	</div>
-    	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+    	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} 
+		style={{width:'200px', height:'50px', backgroundColor:'#00693e', color: '#FFFFFF', marginTop: '30px', fontSize: "20px"}}/>
   	</form>
 	)
   }  
