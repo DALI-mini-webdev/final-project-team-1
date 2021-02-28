@@ -17,7 +17,7 @@
   position: relative;
   width: flex;
   height: 100vh;
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #82A3A1;
+  background: linear-gradient(180deg, #FFFFFF 0%, #00693e 100%, #82A3A1);
 }
 
 .App-header {

@@ -1,31 +1,37 @@
 export const MenuItems = [
+   
     {
         title: 'Athletics',
-        url: '#',
+        path: '/athletics',
         cName: 'nav-links'
     },
 
     {
         title: 'Academics',
-        url: '#',
+        path: '/academics',
         cName: 'nav-links'
     },
     {
         title: 'Admissions',
-        url: '#',
+        path: '/admissions',
         cName: 'nav-links'
     },
 
     {
         title: 'Community',
-        url: '#',
+        path: '/community',
         cName: 'nav-links'
     },
 
     {
         title: 'Other',
-        url: '#',
+        path: '/other',
         cName: 'nav-links'
+    },
+    {
+    title: 'Contact Us!',
+    path: '/contactus',
+    cName: 'nav-links-mobile'
     }
 
 ]

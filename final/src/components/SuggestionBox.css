@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+
+
+.green-text {
+    color:darkgreen;
+    font:Times;
+    text-align: center;
+    font-size: larger;
+}
+
+.green-button {
+    color: white;
+    background-color: darkseagreen;
+}
+
+.textbox {
+    margin-left: auto;
+    margin-right: auto;
+}

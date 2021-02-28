@@ -1,6 +1,7 @@
 
 import './App.css';
 import React from 'react';
+import './SuggestionBox.css'
 
 
 <input type="text" onChange={onChangeFunction}/>
@@ -20,23 +21,24 @@ class SuggestionBox extends Component {
     render() {
         return(
             <box className = "textbox">
-                <h1>What would you like to suggest?</h1>
+                <h2 className="green-text">What would you like to suggest?</h2>
+                <div>
                 <form>
                     <fieldset>
                         <p>
                         <label>Text Area</label>
-                        <textarea> id = "myTextArea"
+                        <textarea className="textbox"> id = "myTextArea"
                             rows = "3"
                             cols = "80"
                         </textarea>
                         </p>
                     </fieldset>
                 </form>
-                <div>
-                <button onClick={this.handleClick}>Submit!</button>
+                </div>
+                <button className="green-button" onClick={this.handleClick}>Submit!</button>
             </box>
         )
     }
 }
 
-export default Navbar
+export default SuggestionBox
