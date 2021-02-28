@@ -35,40 +35,60 @@ export default class extends React.Component {
   handleSubmit (event) {
 	const templateId = 'template_i5ufmmh';
 	var recipients;
+	var recipientsNames;
 
 	// store the email list for the different groups here
 	var academicsEmails = ['vicoleezy@gmail.com', 'vico.z.lee.24@dartmouth.edu'];
+	var academicsNames = ['Vico', 'Vico Lee'];
+
 	var admissionsEmails = [];
+	var admissionsNames = [];
+
 	var athleticsEmails = [];
+	var athleticsNames = [];
+
 	var communityEmails = [];
+	var communityNames = [];
+
 	var othersEmails = [];
+	var othersNames = [];
+
 	var contactUsEmails = ['vicoleezy@gmail.com']
+	var contactUsNames = ['Vico'];
+
 	
 	// set recipient list according to the type
 	if (this.state.type === 'academics') {
 		recipients = academicsEmails;
-	} else if (this.state.type == 'admissions') {
+		recipientsNames = academicsNames;
+	} else if (this.state.type === 'admissions') {
 		recipients = admissionsEmails;
-	} else if (this.state.type == 'athletics') {
+		recipientsNames = admissionsNames;
+	} else if (this.state.type === 'athletics') {
 		recipients = athleticsEmails;
-	} else if (this.state.type == 'community') {
+		recipientsNames = athleticsNames;
+	} else if (this.state.type === 'community') {
 		recipients = communityEmails;
-	} else if (this.state.type == 'others') {
+		recipientsNames = communityNames;
+	} else if (this.state.type === 'others') {
 		recipients = othersEmails;
-	} else if (this.state.type == 'contact us') {
+		recipientsNames = othersNames;
+	} else if (this.state.type === 'contact us') {
 		recipients = contactUsEmails;
+		recipientsNames = contactUsNames;
 	} else {
 		recipients = [];	// empty recipient email list if sending to none of the available options
+		recipientsNames = [];
 	}
 
 	// send to every recipient in the relevant recipient list
-	if (this.state.feedback != '') {
+	if (this.state.feedback !== '') {
 		for (var i = 0; i < recipients.length; i++) {
-			console.log(recipients[i]);
-			this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: recipients[i], topic: this.state.type})
+			this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, to_name: recipientsNames[i], reply_to: recipients[i], topic: this.state.type})
+			console.log("Sent email to: " + recipientsNames[i] + "with email address: " + recipients[i]);
 		}
 	} else {
-		console.log("Form was not successfully submitted becasue the message was empty.")
+		console.log("Form was not successfully submitted because the message was empty.")
 	}
 
   }
