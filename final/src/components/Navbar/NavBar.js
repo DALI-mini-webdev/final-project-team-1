@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import pic from './DARTFIX.jpg';
 import './NavBar.css'
 import {Button} from "../Button"
 import { MenuItems } from './MenuItems';
@@ -19,7 +20,7 @@ class NavBar extends Component{
         return(
             <nav className="NavBarLook">
                 <h1 className = "suggestionLogo">DartFix
-                <img className = "LogoSetup" src ="./components/DARTFIX.jpg" ></img>
+                <img className = "logoSetup" src ={pic} ></img>
                 
 
                 <i className = "fab fa-react">
