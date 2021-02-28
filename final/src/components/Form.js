@@ -24,7 +24,7 @@ export default class extends React.Component {
       	/>
     	</div>
     	<input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} 
-		style={{width:'200px', height:'50px', backgroundColor:'#00693e', color: '#FFFFFF', marginTop: '30px', fontSize: "20px"}}/>
+		style={{width:'200px', height:'50px', backgroundColor:'#00693e', color: '#FFFFFF', marginTop: '30px', fontSize: "20px", borderRadius: '18px'}}/>
   	</form>
 	)
   }  
