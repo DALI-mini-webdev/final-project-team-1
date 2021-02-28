@@ -17,7 +17,8 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <Switch>
+        <body className="page">
+           <Switch>
           <Route path = '/academics' exact component={Academics} />
           <Route path = '/athletics' component={Athletics} />
           <Route path = '/community' component={Community} />
@@ -25,11 +26,11 @@ function App() {
           <Route path = '/admissions' component={Admissions} />
           
             </Switch> 
+        </body>
+       
           
          
         </Router>
-
-      
     </div>
   );
 }
