@@ -62,9 +62,13 @@ export default class extends React.Component {
 	}
 
 	// send to every recipient in the relevant recipient list
-	for (var i = 0; i < recipients.length; i++) {
-		console.log(recipients[i]);
-		this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: recipients[i], topic: this.state.type})
+	if (this.state.feedback != '') {
+		for (var i = 0; i < recipients.length; i++) {
+			console.log(recipients[i]);
+			this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: recipients[i], topic: this.state.type})
+		}
+	} else {
+		console.log("Form was not successfully submitted becasue the message was empty.")
 	}
 
   }
