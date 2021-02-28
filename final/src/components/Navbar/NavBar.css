@@ -18,11 +18,11 @@
 
 /* help from github website */
 .logoSetup{
-    width: 40px;
-    height: 40px;
+    width: 15%;
+    height: 15%;
     border-radius: 55%;
     overflow: hidden;
-    margin-top: auto;
+    margin-left: 10px;
 }
 
 .fa-react{
