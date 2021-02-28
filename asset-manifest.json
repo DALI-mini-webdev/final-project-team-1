@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/final-project-team-1/static/css/main.7664c9de.chunk.css",
+    "main.js": "/final-project-team-1/static/js/main.8c941641.chunk.js",
+    "main.js.map": "/final-project-team-1/static/js/main.8c941641.chunk.js.map",
+    "runtime-main.js": "/final-project-team-1/static/js/runtime-main.1d6e7bd7.js",
+    "runtime-main.js.map": "/final-project-team-1/static/js/runtime-main.1d6e7bd7.js.map",
+    "static/js/2.4f979d6a.chunk.js": "/final-project-team-1/static/js/2.4f979d6a.chunk.js",
+    "static/js/2.4f979d6a.chunk.js.map": "/final-project-team-1/static/js/2.4f979d6a.chunk.js.map",
+    "index.html": "/final-project-team-1/index.html",
+    "static/css/main.7664c9de.chunk.css.map": "/final-project-team-1/static/css/main.7664c9de.chunk.css.map",
+    "static/js/2.4f979d6a.chunk.js.LICENSE.txt": "/final-project-team-1/static/js/2.4f979d6a.chunk.js.LICENSE.txt",
+    "static/media/DARTFIX.6538b3ab.jpg": "/final-project-team-1/static/media/DARTFIX.6538b3ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d6e7bd7.js",
+    "static/js/2.4f979d6a.chunk.js",
+    "static/css/main.7664c9de.chunk.css",
+    "static/js/main.8c941641.chunk.js"
+  ]
+}
