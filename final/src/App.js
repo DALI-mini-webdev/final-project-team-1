@@ -10,6 +10,7 @@ import{
   import Other from './pages/Other';
   import Admissions from './pages/Admissions';
   import Community from './pages/Community';
+  import ContactUs from './pages/ContactUs';
 
 // I got help with exact / links from youtube//
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path = '/community' component={Community} />
           <Route path = '/other' component={Other} />
           <Route path = '/admissions' component={Admissions} />
+          <Route path = '/contactus' component={ContactUs} />
           
             </Switch> 
         </body>

@@ -31,7 +31,7 @@ export const MenuItems = [
     {
     title: 'Contact Us!',
     path: '/contactus',
-    cName: 'nav-links-mobile'
+    cName: 'nav-links'
     }
 
 ]

@@ -3,7 +3,7 @@
     background: linear-gradient(90deg, #00693e 0%,  #00693e  100%);
     height: 90px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size: 1.2rem;
 }
@@ -33,7 +33,7 @@
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;

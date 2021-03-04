@@ -4,6 +4,7 @@ import './NavBar.css'
 import {Button} from "../Button"
 import { MenuItems } from './MenuItems';
 import {Link} from 'react-router-dom';
+import ContactUs from '../../pages/ContactUs';
 
 class NavBar extends Component{
     state = {clicked: false}
@@ -12,8 +13,9 @@ class NavBar extends Component{
         this.setState({clicked: !this.state.clicked})
     }
 
-    callbackfunctiion = () => {
+    callbackfunction = () => {
         this.setState({clicked: this.state.clicked})
+        return {ContactUs};
     }
     
     render(){
@@ -40,7 +42,7 @@ class NavBar extends Component{
                             )
                         })}
                     </ul>
-                    <Button onClick={this.callbackfunction}>Contact Us!</Button>
+                    {/* <Button onClick={this.callbackfunction}>Contact Us!</Button> */}
 
             </nav>
         )
